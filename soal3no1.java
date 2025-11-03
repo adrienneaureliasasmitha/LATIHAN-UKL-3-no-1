@@ -2,7 +2,9 @@ import java.util.Scanner;
 
 public class App {
 
-    System.out.println("=== PROGRAM REKAP NILAI PRODUKTIF RPL ===");
+   Scanner input = new Scanner(System.in);
+
+        System.out.println("=== PROGRAM REKAP NILAI PRODUKTIF RPL ===");
         System.out.print("Masukkan jumlah siswa: ");
         int jumlahSiswa = input.nextInt();
 
@@ -24,6 +26,5 @@ public class App {
         System.out.println("Rata-rata    : " + rataRata);
 
         input.close();
-
     }
 }
